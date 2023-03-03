@@ -48,26 +48,6 @@ html{
 
 }
 
-header{
-    height: 6vh;
-    background-image: linear-gradient(to right, #ebebe7,#ebebe7,red);
-    color:white;
-    
-}
-header h3 {
-    display: inline;
-    float: right;
-    margin-right: 30px;
-    color: white;
-    font-size: 30px;
-    font-family: irsansx;
-}
-header h3:hover {
-    color: black;
-    transform:rotatey(360deg);
-    transition-duration: 1000ms;
-}
-
 
 .spage {
     height: 370vh;
@@ -164,6 +144,8 @@ header {
 }
 
   .ial {
+    display: flex;
+    justify-content: center;
     margin-top: -170px;
   }
   .ial img {
@@ -192,12 +174,13 @@ header {
   }
  .gallery img{
   
-    width: 100px;
+    width: 90px;
   }
   .gallery {
     gap: 20px 20px;
     margin-top: -200px;
     justify-content: center;
+    margin-left: -15px;
   }
   .spage {
     height: 140vh;
@@ -205,12 +188,22 @@ header {
   footer h1{
     font-size: 23px;
   }
+
   footer p {
     font-size: 15px;
   }
   footer {
     height: 21vh;
   }
+  .ab {
+    margin-left: 15px;
+  }
+.ba {
+  margin-left: -5px;
+}
+.ca {
+  margin-left: -5px;
+}
   .upperf {
     height: 10vh;
   }
